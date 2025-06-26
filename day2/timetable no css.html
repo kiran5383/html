@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table{
+           
+            height: 300px;
+            width: 400px;
+            color: black;
+            margin-top: 70px;
+            margin-bottom: 60px;
+            border:5px inset black;
+        }
+        th{
+            background-color: beige;
+            height: 50px;
+            width: 50px;
+            text-transform: uppercase;
+            word-spacing: 6px;
+            letter-spacing: 2px;
+            direction: ltr;
+            text-indent: 5px;
+        }
+        
+        #d1,#d2,#d5,#d6{
+            background-color: rgb(224, 224, 129);
+         
+        }
+        #d3,{
+            background-color: rgb(236, 225, 161);
+            
+        }
+        #d4{
+            background-color: rgb(236, 225, 161);
+            word-spacing: 7px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body><center>
+    <table border="10">
+        <tr><th colspan="8">Time Table</th></tr>
+        <tr style="background-color: rgb(243, 235, 189);"><td>10:00</td>
+            <td>11:00</td>
+            <td>12:00</td>
+            <td>1:00</td>
+            <td>2:00</td>
+            <td>3:00</td>
+            <td>4:00</td>
+            <td>5:00</td>
+        </tr>
+<tr><td>cpp</td>
+    <td>html</td>
+    <td>mern</td>
+    <td>python</td>
+    <td>php</td>
+    <td>aws</td>
+    <td>ccna</td>
+    <td>cloud</td>
+</tr>
+<tr><td id="d1" colspan="2" align="center">python</td>
+    <td id="d2" rowspan="2" align="center">ccnp</td>
+    <td>cloud</td>
+    <td>mcsa</td>
+    <td>php</td>
+    <td id="d3" colspan="2" rowspan="2" align="center">break</td>
+</tr>
+<tr><td>cpp</td>
+    <td>aws</td>
+    <td colspan="2" align="center">python</td>
+    <td>cpp</td>      
+</tr>
+<tr><td colspan="2" rowspan="2" align="center">ccnp</td>
+    <td>cpp</td>
+    <td>html</td>
+    <td id="d5" colspan="2" align="center">mcsa</td>
+    <td>aws</td>
+    <td>cpp</td>
+</tr><tr>
+    <td colspan="2" align="center">php</td>
+    <td>cpp</td>
+    <td id="d6" colspan="2" align="center">html</td>
+    <td>php</td>
+    </tr>
+    <tr><td id="d4" colspan="8" align="center">Break Time</td>
+</table> </center>
+</body>
+</html>
